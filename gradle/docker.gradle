@@ -29,7 +29,7 @@ docker {
         
         
         username = 'royjoydeep1'
-        password = '10011982aA'
+        password = (System.env.DOCKER_HUB_PWD)
         email = 'royjoydeep1@gmail.com'
     }
 }
